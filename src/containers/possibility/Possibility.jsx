@@ -6,7 +6,7 @@ const Possibility = () => {
   return (
     <div className="possibility section__padding" id="possibility">
       <div className="possibility-image">
-        <img src={possibilityImage} alt="" />
+        <img src={possibilityImage} alt="" loading="lazy"/>
       </div>
       <div className="possibility-content">
         <h4>Request Early Access to Get Started</h4>
